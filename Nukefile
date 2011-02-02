@@ -3,7 +3,7 @@
 (set @c_files     (filelist "^Framework/Pantomime/.*.c$"))
 
 (set @arch (list "x86_64"))
-(set @cflags "-I . -g -std=gnu99 -fobjc-gc -DDARWIN -DMACOSX")
+(set @cflags "-I ./Framework -g -std=gnu99 -fobjc-gc -DDARWIN -DMACOSX")
 (set @ldflags  "-framework Foundation -framework Nu -lssl -lcrypto")
 
 ;; framework description
